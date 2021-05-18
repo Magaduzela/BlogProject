@@ -9,12 +9,6 @@ p{
     margin-left: 0px;
     
 }
-
-.title{
-    background-image: url('Teams.jpg');
-    background-repeat: initial;
-}
-
 .about{
     background-color: grey;
     
@@ -29,3 +23,18 @@ p{
     text-align: center;
     padding: 20px;
 }
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    background-image: url("notebook.jpg");
+    
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  

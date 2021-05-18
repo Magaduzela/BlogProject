@@ -1,0 +1,31 @@
+p{
+    text-align: center;
+    padding: 10px;
+
+}
+
+.row{
+    margin-right: 0px;
+    margin-left: 0px;
+    
+}
+
+.title{
+    background-image: url('Teams.jpg');
+    background-repeat: initial;
+}
+
+.about{
+    background-color: grey;
+    
+}
+
+.author{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: antiquewhite;
+    font-size: large;
+    height: 150px;
+    text-align: center;
+    padding: 20px;
+}

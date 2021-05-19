@@ -15,13 +15,14 @@ p{
 }
 
 .author{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-    color: antiquewhite;
-    font-size: large;
+    background-image: url("Teams.jpg");
     height: 150px;
     text-align: center;
     padding: 20px;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 * {
@@ -29,12 +30,19 @@ p{
   }
   
   .bg-image {
-    background-image: url("notebook.jpg");
+    background-image: url("background-blog.jpg");
     
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  .footer{
+      text-align: center;
+      
+  }
+
+  
 
   

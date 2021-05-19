@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="contact.css">
@@ -28,40 +28,61 @@
 
         </div>
 
+        <div class="contact font-weight-bolder display-4 justify-content-center text-white">
+            <div>
+                Contact Us
+            </div>
+        </div>
 
-        <form action="action_page.php">
 
-            <label for="fname">First Name</label></br>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
-            </br>
-            <label for="lname">Last Name</label></br>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-            </br>
+        <div>
+            <form action="action_page.php">
 
-            <label for="mnumber">Mobile Number</label></br>
-            <input type="text" id="mnumber" name="mobilenumber" placeholder="Your Mobile Numnber..">
-            </br>
+                <label for="fname">First Name</label></br>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                </br>
+                <label for="lname">Last Name</label></br>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                </br>
 
-            <label for="email">Email</label></br>
-            <input type="email" id="email" name="email" placeholder="Your Email..">
-            </br>
-            <label for="province">Province</label></br>
-            <select id="province" name="province">
-                <option value="kwazulunatal">KwaZulu Natal</option>
-                <option value="mpumalanga">Mpumalanga</option>
-                <option value="freestate">Free State</option>
-                <option value="westerncape">Western Cape</option>
-                <option value="Easterncape">Eastern Cape</option>
-                <option value="northerncape">Northarn Cape</option>
-                <option value="gauteng">Gauteng</option>
-            </select>
-            </br>
-            <label for="subject">Message</label></br>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea></br>
+                <label for="mnumber">Mobile Number</label></br>
+                <input type="text" id="mnumber" name="mobilenumber" placeholder="Your Mobile Numnber..">
+                </br>
 
-            <input type="submit" value="Submit">
+                <label for="email">Email</label></br>
+                <input type="email" id="email" name="email" placeholder="Your Email..">
+                </br>
+                <label for="province">Province</label></br>
+                <select id="province" name="province">
+                    <option value="kwazulunatal">KwaZulu Natal</option>
+                    <option value="mpumalanga">Mpumalanga</option>
+                    <option value="freestate">Free State</option>
+                    <option value="westerncape">Western Cape</option>
+                    <option value="Easterncape">Eastern Cape</option>
+                    <option value="northerncape">Northarn Cape</option>
+                    <option value="gauteng">Gauteng</option>
+                </select>
+                </br>
+                <label for="subject">Message</label></br>
+                <textarea id="subject" name="subject" placeholder="Write something.."
+                    style="height:200px"></textarea></br>
 
-        </form>
+                <input type="submit" value="Submit">
+
+            </form>
+        </div>
+
+        <footer class="footer bg-dark text-muted">
+            <div>
+                Copyright &copy; 2021 - Bona Dlamini
+            </div>
+
+            <div>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="https://twitter.com/home" class="fa fa-twitter"></a>
+            </div>
+
+        </footer>
 
     </div>
 
